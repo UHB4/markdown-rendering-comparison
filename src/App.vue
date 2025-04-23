@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <StreamChat />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import StreamChat from './components/StreamChat.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    StreamChat
   }
 }
 </script>
